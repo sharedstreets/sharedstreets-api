@@ -1,4 +1,4 @@
-**Matched point**
+**Matched points**
 ----
   Returns GeoJSON data for ShareStreets point references using map matching filters, based on POST request containing GeoJSON Point FeatureCollection.
 
