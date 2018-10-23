@@ -1,4 +1,4 @@
-**Matched point*
+**Matched point**
 ----
   Returns GeoJSON data for ShareStreets line references using map matching filters, based on POST request containing GeoJSON LineString or MultiLineString FeatureCollection.
 
