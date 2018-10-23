@@ -18,7 +18,7 @@ For a givien planet tile build (e.g. planet-180430) a valid request looks like:
 SharedStreets maintains a AWS-backed API that provides convenience functions on top of the tile data sets. These functions convert data to JSON and GeoJSON formats and allow dynamic map matching from point and line geometries. 
 
 #### Base URL + Versioning
-SharedStreets API calls described below are semantically versioned and provided via the following endpoint:
+SharedStreets API calls described semantically versioned. The calls described below can be made via the following endpoint:
 
 `https://api.sharedstreets.io/v0.1.0[/request]`
 
@@ -26,12 +26,14 @@ All API endpoints require a valid key to be included in the request.
 
 ### Geometries
 
+#### Geometries
+
 Endpoints for requesting SharedStreets data as GeoJSON:
 
 * [Geometries within bbox](geom/within.md) : `GET /geom/within`
 
 
-### Point and Geometry Matching
+#### Point and Geometry Matching
 
 Each endpoint manipulates or displays information related to the User whose
 Token is provided with the request:
