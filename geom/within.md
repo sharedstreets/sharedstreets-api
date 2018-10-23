@@ -1,4 +1,4 @@
-**Geometries within bbox*
+**Geometries within bbox**
 ----
   Returns GeoJSON data for SharedStreets Geometries within a bounding box.
 
