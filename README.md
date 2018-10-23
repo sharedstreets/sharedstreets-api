@@ -2,7 +2,7 @@
 
 ## Global SharedStreets Tile Sets
 
-SharedStreets generates and publishes a global OpenStreetMap-derived tile set encoded in the SharedStreets protocol bufffer format. These tiles are generated from periodic weekly planet.osm snapshots and converted to mercator z-12 tiles. The tiles are made available for download via the following endpoint:
+SharedStreets generates and publishes a global OpenStreetMap-derived tile set of street segment references, geometries, intersections and metadata encoded in protocol bufffer format (see the [SharedStreets Referencing System](https://github.com/sharedstreets/sharedstreets-ref-system) for details). These tiles are generated from periodic weekly planet.osm snapshots and converted to mercator z-12 tiles. The tiles are made available for download via the following endpoint:
 
 `https://tiles.sharedstreets.io/osm/{planet-yymmdd}/12-{x}-{y}.{geometry|reference|metadata|intersection}.6.pbf` 
 
