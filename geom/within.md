@@ -13,9 +13,10 @@
 *  **URL Params**
 
    **Required:**
+   
    `authKey=[SharedStrets API Key]`
 
-   `bounds=[lng1],[lat1],[lng2],[lat2]`
+   `bounds=[lng1],[lat1],[lng2],[lat2]` a bounding box defined by two corners (e.g. NE and SW) expressed in decimal degrees
 
 * **Data Params**
 
