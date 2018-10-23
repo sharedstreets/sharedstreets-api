@@ -32,7 +32,11 @@
 
 * **Data Params**
 
-  None
+  `[lat]` Latitude in decimal degrees
+  
+  `[lng]` Longitude in decimal degrees
+  
+  `[bearing]` Bearing in decimal degrees (Optional)
 
 * **Success Response:**
 
