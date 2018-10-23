@@ -24,7 +24,7 @@ SharedStreets API calls described semantically versioned. The calls described be
 
 All API endpoints require a valid key to be included in the request.
 
-### Geometries
+### API Endpoints requiring API Key authorization
 
 #### Geometries
 
