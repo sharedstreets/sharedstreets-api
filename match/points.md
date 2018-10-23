@@ -1,4 +1,4 @@
-**Matched point*
+**Matched point**
 ----
   Returns GeoJSON data for ShareStreets point references using map matching filters, based on POST request containing GeoJSON Point FeatureCollection.
 
@@ -12,7 +12,7 @@
   
    **Request Body**
 
-   `{type:"FeatureCollection", features: [point features...]`
+   `{type:"FeatureCollection", features: [point features...]}` A collection of point features. Point features may optionally include a `bearing` properity expressing point bearing in decimal degress. 
 
 *  **URL Params**
 
