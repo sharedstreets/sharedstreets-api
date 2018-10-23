@@ -5,6 +5,7 @@
 * **URL**
 
   `/match/point/[lng],[lat]`
+  
   `/match/point/[lng],[lat],[bearing]`
 
 * **Method:**
@@ -14,6 +15,7 @@
 *  **URL Params**
 
    **Required**
+   
     `authKey=[SharedStrets API Key]`
 
    **Optional:**
