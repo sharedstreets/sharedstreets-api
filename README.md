@@ -35,8 +35,7 @@ Endpoints for requesting SharedStreets data as GeoJSON:
 
 #### Point and Geometry Matching
 
-Each endpoint manipulates or displays information related to the User whose
-Token is provided with the request:
+Endpoints for dynamic map matching from point and line geometries:
 
 * [Match point](match/point.md) : `GET /match/point`
 * [Match points from GeoJSON](match/point.md) : `POST /match/points`
