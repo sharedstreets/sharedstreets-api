@@ -14,7 +14,7 @@ For a givien planet tile build (e.g. planet-180430) a valid request looks like:
 SharedStreets maintains ~monthly global builds for OpenStreetMap, starting from March 2018. Currently available planet data sets are include:
 
 * planet-180312
-* planet-180430
+* planet-180430 (current default for API calls)
 * planet-180528
 * planet-180625
 * planet-180730
@@ -36,6 +36,9 @@ The SharedStreets API calls described below can be made via the following semant
 `https://api.sharedstreets.io/v0.1.0[/request]`
 
 All API endpoints require a valid key to be included in the request.
+
+#### Data source
+SharedStreets API calls target specific data sources for matching and ID look up. Current API calls default to the planet-180430 OSM data source, but can be set to use any available OSM data source by using the `&dataSource=[osm/planet-yymmdd]` querystring parameter. Future versions of the API will allow selection of GIS and other non-OSM data sources.
 
 ### Public API Endpoints 
 
