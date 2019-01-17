@@ -10,6 +10,19 @@ For a givien planet tile build (e.g. planet-180430) a valid request looks like:
 
 `https://tiles.sharedstreets.io/osm/planet-180430/12-1171-1566.geometry.6.pbf`
 
+### Versioned OSM data sources
+SharedStreets maintains ~monthly global builds for OpenStreetMap, starting from March 2018. Currently available planet data sets are include:
+
+* planet-180312
+* planet-180430
+* planet-180528
+* planet-180625
+* planet-180730
+* planet_180827
+* planet-180924
+* planet-181029
+* planet-181126
+* planet-181224
 
 
 
