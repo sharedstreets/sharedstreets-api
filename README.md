@@ -18,7 +18,7 @@ SharedStreets maintains ~monthly global builds for OpenStreetMap, starting from 
 * planet-180528
 * planet-180625
 * planet-180730
-* planet_180827
+* planet-180827
 * planet-180924
 * planet-181029
 * planet-181126
