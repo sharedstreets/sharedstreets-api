@@ -28,7 +28,7 @@ All API endpoints require a valid key to be included in the request.
 
 #### Identifiers
 
-*[SharedStreets and OpenStreetMap ID lookup](query/id.md): `/id`
+* [SharedStreets and OpenStreetMap ID lookup](query/id.md): `/id`
 
 ### API Endpoints requiring API Key authorization
 
