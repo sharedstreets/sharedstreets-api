@@ -24,6 +24,12 @@ The SharedStreets API calls described below can be made via the following semant
 
 All API endpoints require a valid key to be included in the request.
 
+### Public API Endpoints 
+
+#### Identifiers
+
+*[SharedStreets and OpenStreetMap ID lookup](query/id.md): `/id`
+
 ### API Endpoints requiring API Key authorization
 
 #### Geometries
