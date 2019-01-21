@@ -14,7 +14,7 @@
 
    **Required:**
    
-   `authKey=[SharedStrets API Key]`
+   `authKey=[SharedStreets API Key]`
 
    `bounds=[lng1],[lat1],[lng2],[lat2]` a bounding box defined by two corners (e.g. NE and SW) expressed in decimal degrees
 
