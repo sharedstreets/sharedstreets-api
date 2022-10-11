@@ -1,5 +1,7 @@
 # SharedStreets API
 
+The code for the [`sharedstreets-api`](https://www.npmjs.com/package/sharedstreets-api) npm package lives in the [`sharedstreets-download-tile`](https://github.com/sharedstreets/sharedstreets-download-tile) repository.
+
 ## Global SharedStreets Tile Sets
 
 SharedStreets generates and publishes a global OpenStreetMap-derived tile set of street segment references, geometries, intersections and metadata encoded in protocol bufffer format (see the [SharedStreets Referencing System](https://github.com/sharedstreets/sharedstreets-ref-system) for details). These tiles are generated from periodic weekly [planet.osm](https://planet.openstreetmap.org/) snapshots and converted to mercator z-12 tiles. The tiles are made available for download via the following endpoint:
